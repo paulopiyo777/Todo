@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.ItemI
             // Check for nullptr exception
             assert data != null;
             String itemText = data.getStringExtra(KEY_ITEM_TEXT);
-            
+
             // Extract original position of the edited item from position key
             int position = Objects.requireNonNull(data.getExtras()).getInt(KEY_ITEM_POSITION);
 
