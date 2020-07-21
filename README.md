@@ -20,7 +20,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Create interface to handle deletion of tasks
+* [x] Display task name on single click
 
 ## Video Walkthrough
 
