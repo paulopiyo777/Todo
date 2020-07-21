@@ -68,13 +68,13 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemHolder> {
 
         @Override
         public void onClick(View v) {
-            itemInteraction.todoClicked(itemList.get(getAdapterPosition()));
+            itemInteraction.todoClicked(itemList.get(getAdapterPosition()), getAdapterPosition());
         }
     }
 
     public interface ItemInteraction {
 
-        void todoClicked(String s);
+        void todoClicked(String s, int position);
 
         void todoLongClick(int position);
     }
