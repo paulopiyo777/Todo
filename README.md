@@ -34,6 +34,7 @@ GIF created with [VRecorder](https://v-recorder.en.uptodown.com/android).
 ## Notes
 
 Describe any challenges encountered while building the app.
+- App kept crashing when attempting to delete a single item on long-click: created a custom adapter and handled delete operations through public interface
 
 ## License
 
